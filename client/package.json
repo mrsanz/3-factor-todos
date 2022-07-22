@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "npx fastify-cli start -l trace index.js"
+  },
+  "dependencies": {
+    "director": "^1.2.0",
+    "fastify": "^3.12.0",
+    "fastify-static": "^4.0.1",
+    "todomvc-app-css": "^2.0.0",
+    "todomvc-common": "^1.0.1",
+    "vue": "^2.1.8"
+  },
+  "devDependencies": {
+    "fastify-cli": "^2.8.0"
+  }
+}
